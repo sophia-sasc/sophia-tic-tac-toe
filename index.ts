@@ -6,7 +6,7 @@ for (var tdElement of tdElements) {
 var isO = true
 function handleClick(event) {
   var target = event.target;
-  if (isO) { 
+  if (isO) { target.INNERhtml
     target.innerHTML = "O";
 isO
   }
