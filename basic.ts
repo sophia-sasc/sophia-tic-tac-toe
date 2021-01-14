@@ -8,7 +8,8 @@ var board = [
   [null, null, null], // rowIndex="1"
   [null, null, null] // rowIndex="2"
 ];
-
+var winningConditons =[
+  {row:0,column:0,},{row:1,column:0,},{row:2,column:0,},]
 for (var tdElement of tdElements) {
   tdElement.addEventListener("click", handleClick);
 }
