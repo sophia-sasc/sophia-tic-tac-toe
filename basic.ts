@@ -21,8 +21,12 @@ var winningConditions = [
 ];
 
 function whoWon() {
-  // return 'X' 'O' or null
-  return null;
+for (var winningCondition of winningConditions){
+  var winningValue = whoWonACondition(winningCondition);
+  if (winningValue) {
+    return winningValue;
+  }
+}
 }
 
 for (var tdElement of tdElements) {
