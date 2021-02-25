@@ -1,3 +1,17 @@
+h1 {
+  font-size: 16px;
+  text-align: center;
+  /* width: 100%; */
+}
+
+.hidden {
+  display: none;
+}
+/*
+#enter {
+  display: none;
+} */
+
 td {
   border: 1px solid black;
   font-size: 50px;
@@ -6,12 +20,15 @@ td {
   text-align: center;
   width: 50px;
 }
+
 .O {
   color: red;
 }
+
 .X {
   color: blue;
 }
+
 .won {
   background-color: yellow;
 }
